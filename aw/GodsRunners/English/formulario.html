@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+</head>
+<body>
+	<form action="formulario.php" method="post">
+		<table align="center">
+			<tr>
+				<td>Nombre:</td>
+				<td><input type="text" name="nombre" placeholder="Nombre?" required></td>
+			</tr>
+			<tr>
+				<td>E-mail:</td>
+				<td><input type="email" name="email" placeholder="E-mail?" required></td>
+			</tr>
+			<tr>
+				<td>Edad:</td>
+				<td><input type="text" name="edad" placeholder="Edad?" required></td>
+			</tr>
+			<tr>
+				<td>Fecha:</td>
+				<td><input type="date" name="fecha" placeholder="Fecha?" required></td>
+			</tr>
+
+			<tr>
+				<td>Mensaje:</td>
+				<td><textarea cols="21" rows="8" name="mensaje" required></textarea> </td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="boton" value="Enviar"></td>
+			</tr>
+
+
+
+		</table>
+	</form>
+</body>
+</html>

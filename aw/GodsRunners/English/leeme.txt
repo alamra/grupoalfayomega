@@ -1,0 +1,8 @@
+TUTORIAL: Como hacer un slider con javascript y jquery desde 0.
+BLOG: http://creaticode.com/blog/
+
+-------------------------------------------------------------------------------------------------------------
+Las imagenes usadas en esta demostracion no son de mi propiedad y fueron usadas exclusivamente como ejemplo.
+
+AUTORES DE LAS IMAGENES: https://www.flickr.com/photos/flickr/galleries/72157645330786244/
+-------------------------------------------------------------------------------------------------------------

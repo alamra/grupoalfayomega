@@ -1,0 +1,204 @@
+/*
+*color:eee; color blanco
+*color: 22bce0; color aguamarina
+*color:#80bca3; color verde	background nav
+*color:#444; color gris
+*/
+*
+{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+
+}
+
+a
+{
+	color: #22bce0;
+}
+
+section
+{
+	float: left;
+	position: relative;
+}
+body
+{
+	background: #eee;
+}
+
+footer
+{
+	background: #22bce0;
+	color: rgba(255,255,255,0.7);
+	font-size: 1.2em;
+	padding: 1em;
+	text-align: center;
+}
+footer p:first-child
+{
+	margin: 0;
+}
+footer p:last-child
+{
+	margin: 0;
+}
+
+footer p:last-child:after
+{
+	content: " -"
+}
+
+footer p:last-child:before
+{
+	content: "- "
+}
+
+header
+{
+	
+	color: white;
+	overflow: hidden;
+	padding: 0.5em;
+	position: relative;
+}
+
+header figure
+{
+	float: left;
+}
+
+
+header h1
+{
+	color: green;
+	font-size: 3em;
+	font-weight: normal;
+	margin: 0.5em 120px 0 170px;
+	text-align: center;
+	
+}
+
+
+header #logo img
+{
+	padding-right: 1em;
+	width: 90px;
+	
+}
+
+header #avatar img
+{
+	border-radius: 50%;
+	width: 90px;
+}
+
+header #avatar
+{
+	margin: 1em 1em 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+
+nav
+{
+	
+	background: #80bca3;
+	padding: 0 0.5em;
+	position: relative;
+	
+}
+
+nav ul
+{
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+nav ul li
+{
+	
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+}
+
+
+nav ul #lang_nav
+{
+	
+	position: absolute;
+	right: 0;
+	top: -0.4em;
+
+}
+nav ul #lang_nav a
+{
+	background: #22bce0;
+	border-radius: 0.3em;
+	box-shadow: rgba(0,0,0,0.5) 1.5px 1.5px 2px;
+	font-style: italic;
+	padding: 0.8em;
+	text-decoration: none;
+	text-shadow: rgba(0,0,0,0.5) 1.5px 1.5px 2px;
+}
+
+
+#contenido
+{
+	margin: .5em;
+	width: 98%;
+}
+
+#contenido .item
+{
+	background: white;
+	border-bottom: 3px solid #22bce0; 
+	min-height: 150px;
+	position: relative;
+}
+
+#contenido .item .autor_item
+{
+	color: #aaa;
+}
+
+
+#contenido .item .imagen_item
+{
+	float: left;
+	margin: 2em;
+}
+
+#contenido .item .imagen_item img
+{
+	width: 110px;
+}
+
+#contenido .item .titulo_item
+{
+	font-size: 1.2em;
+	font-style: italic;
+	padding: 1em 1em 0 0;
+}
+
+#contenido .item .titulo_item a
+{
+	color: #444;
+	text-decoration: none;
+}
+#contenido .item p
+{
+	padding-right: 1em;	
+}
+
