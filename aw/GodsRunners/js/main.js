@@ -19,7 +19,7 @@ $(function() {
 
 		// Initialize
 		pb.init = function(settings) {
-			this.settings = settings || {duration: 8000} 
+			this.settings = settings || {duration: 7000} 
 			var output = '';
 
 			// Activamos nuestro slider
@@ -94,5 +94,5 @@ $(function() {
 
 		return pb;
 	}());
-	SliderModule.init({duration: 14000});
+	SliderModule.init({duration: 12000});
 });

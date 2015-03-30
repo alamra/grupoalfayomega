@@ -264,6 +264,7 @@ li.slide-current {
 h3
 {
 	color: white;
+	text-align: center;
 }
 h4
 {
@@ -319,9 +320,7 @@ h5
 		height: 200px;
 	}
 
-	.caption {
-		display: none;
-	}
+	
 }
 
 @media only screen and (max-width: 410px) {
@@ -332,4 +331,10 @@ h5
 {
 	text-align: left;
 }
+.caption {
+		display: none;
+	}
+	h3{
+		font-size: 16px;
+	}
 }
